@@ -1,6 +1,7 @@
-int main()
-{
-    cout << power(3,4)<< endl;
-    return 0;
-}
+#include <iostream>
+#include "fun.h"
 
+int main() {
+	std::cout << power(2, 8);
+	return 0;
+}
